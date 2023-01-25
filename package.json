@@ -1,8 +1,11 @@
 {
     "name": "@akcybex/react",
-    "version": "1.0.0",
-    "description": "React essentials components",
-    "author": "Rana Tayyab <tayyab@akcybex.com>",
+    "version": "1.0.2",
+    "description": "React essential components to help in building any kind of react, next or gatsby app.",
+    "author": {
+        "name": "Rana Tayyab",
+        "email": "tayyab@akcybex.com"
+    },
     "license": "MIT",
     "keywords": [
         "react",
@@ -70,6 +73,11 @@
     },
     "publishConfig": {
         "access": "public",
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://registry.npmjs.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akcybex/react.git",
+        "issues": "https://github.com/akcybex/react/issues"
     }
 }
