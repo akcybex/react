@@ -2,10 +2,7 @@
     "name": "@akcybex/react",
     "version": "1.0.3",
     "description": "React essential components to help in building any kind of react, next or gatsby app.",
-    "author": {
-        "name": "Rana Tayyab",
-        "email": "tayyab@akcybex.com"
-    },
+    "author": "AKCybex",
     "license": "MIT",
     "keywords": [
         "react",
@@ -14,6 +11,7 @@
     ],
     "files": [
         "dist",
+        "LICENSE",
         "README.md"
     ],
     "main": "./dist/react.umd.js",
@@ -57,6 +55,12 @@
             "sourceType": "module"
         }
     },
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^9.2.5",
+        "@semantic-release/npm": "^11.0.2"
+    },
     "dependencies": {
         "@testing-library/dom": "^8.20.0",
         "@testing-library/react": "^13.4.0",
@@ -77,7 +81,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/akcybex/react.git",
-        "issues": "https://github.com/akcybex/react/issues"
+        "url": "https://github.com/akcybex/react.git"
+    },
+    "bugs": {
+        "url": "https://github.com/akcybex/react/issues",
+        "email": "contact@akcybex.com"
     }
 }
